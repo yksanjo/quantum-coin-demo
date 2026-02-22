@@ -1,104 +1,84 @@
-# Quantum Coin Demo ⚛️🪙
+# quantum-coin-demo
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/quantum-coin-demo?style=social)](https://github.com/yksanjo/quantum-coin-demo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/quantum-coin-demo.svg)](https://github.com/yksanjo/quantum-coin-demo/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/quantum-coin-demo.svg)](https://github.com/yksanjo/quantum-coin-demo/issues)
-[![Last commit](https://img.shields.io/github/last-commit/yksanjo/quantum-coin-demo.svg)](https://github.com/yksanjo/quantum-coin-demo/commits/main)
+## Detailed Description
 
+quantum-coin-demo is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-Interactive quantum computing demonstration showing superposition - a quantum coin that is heads **AND** tails simultaneously until measured.
+## Problem Statement
 
-## 🎯 The Demo
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-**Why it works:** Everyone understands coins.
+## Solution Overview
 
-- **Classical coin** → always heads OR tails
-- **Quantum coin** → heads AND tails until measured
-- Visual probability bars show superposition state
-- "Measure" button collapses to a single state
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-**Wow moment:** "The quantum coin isn't undecided — it's genuinely in both states simultaneously until measurement collapses it to one!"
+## Key Features
 
-## ✨ Features
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-- Side-by-side classical vs quantum comparison
-- Real-time probability visualization
-- Interactive measurement collapse
-- Beautiful, modern UI
-- Runs in 30-60 seconds
-- No math jargon - plain language explanations
+## Repository Structure
 
-## 🚀 Quick Start
-
-### Install Dependencies
-
-```bash
-npm install
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-### Run Development Server
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-npm run dev
-```
-
-The app will open at `http://localhost:5173`
-
-### Build for Production
-
-```bash
+npm ci
+npm run lint
+npm test
 npm run build
 ```
 
-## 🎓 Educational Use
+## Usage
 
-Perfect for:
-- **Classrooms** - Students learning quantum superposition
-- **Public Events** - Science fairs, museums, tech conferences
-- **Business Presentations** - Demonstrating quantum concepts
-- **Online Learning** - Interactive quantum education
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## 🧠 What You'll Learn
+## Quality Standards
 
-1. **Superposition** - Quantum objects can exist in multiple states simultaneously
-2. **Measurement** - Observing a quantum state collapses it to a single value
-3. **Probability** - Quantum mechanics is probabilistic, not deterministic
-4. **Classical vs Quantum** - Clear comparison of classical and quantum behavior
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-## 🛠 Tech Stack
+## Security
 
-- **React 18** - Modern UI framework
-- **Vite** - Fast build tool
-- **Tailwind CSS** - Utility-first styling
-- **Lucide React** - Beautiful icons
-- **Custom Quantum Simulator** - Educational quantum state simulation
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-## 📖 How It Works
+## Contributing
 
-The demo uses a simple quantum simulator that:
-1. Creates a superposition state using the Hadamard gate
-2. Shows probabilities of measuring |0⟩ (heads) or |1⟩ (tails)
-3. Collapses the state when measured
-4. Visualizes the entire process in real-time
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
-## 🌐 Deploy
+## Roadmap
 
-### Deploy to Vercel
+Track upcoming milestones, technical debt, and planned feature work.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/quantum-coin-demo)
+## Support
 
-### Deploy to Netlify
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/YOUR_USERNAME/quantum-coin-demo)
+## License
 
-## 📝 License
-
-MIT License - feel free to use for educational purposes!
-
-## 🙏 Acknowledgments
-
-Part of a series of quantum computing demos designed to make quantum mechanics accessible to non-experts.
-
----
-
-**Made with ⚛️ for curious minds**
-
-
+This project is released under the MIT License.
